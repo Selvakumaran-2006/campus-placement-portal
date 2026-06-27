@@ -1,0 +1,6 @@
+{
+  "name": "Campus Placement Portal",
+  "description": "A comprehensive placement cell management portal where students can build profiles, search jobs, apply with one click, and companies can post jobs and manage student applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
