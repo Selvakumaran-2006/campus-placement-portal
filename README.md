@@ -36,25 +36,8 @@ This project utilizes a modern full-stack architecture with **React (with Tailwi
   - Out of the box, the app runs on a robust, atomic file-system JSON database (`db.json`) ensuring persistent data inside container workloads.
   - Ready to easily configure with **MongoDB (MERN Stack)** for production workloads by providing the `MONGODB_URI` environment variable.
 
----
 
-## ⚙️ Environment Variables Config
 
-Create a `.env` file in the root directory and configure the following parameters:
-
-```env
-# Server Ingress URL 
-APP_URL="http://localhost:3000"
-
-# Cryptography Secrets
-JWT_SECRET="YOUR_SECURE_JWT_SECRET_KEY"
-
-# Database Configuration (Production MERN Stack Setup)
-# Set this to your MongoDB Atlas connection string to switch to MongoDB in production
-MONGODB_URI="mongodb+srv://<username>:<password>@cluster.mongodb.net/placement_portal"
-```
-
----
 
 ## 📦 Getting Started & Local Installation
 
@@ -104,4 +87,4 @@ To build and compile the application for deployment (e.g., to Heroku, Render, or
 ### Deploying to Render / Heroku
 - **Build Command**: `npm install && npm run build`
 - **Start Command**: `npm run start`
-- **Environment variables**: Supply your environment variables (`JWT_SECRET`, `MONGODB_URI`) directly in the host dashboard.
+- **Environment variables**: Supply your environment variables (`JWT_SECRET`) directly in the host dashboard.
