@@ -65,7 +65,7 @@ This project utilizes a modern full-stack architecture with **React (with Tailwi
    *This starts the Express server running on port `3000` which mounts Vite development middleware on the fly.*
 
 4. **Access the application**:
-   Open [http://localhost:3000](http://localhost:3000) in your web browser.
+   Open https://updated-college-placement-portel.onrender.com/ in your web browser.
 
 ---
 
